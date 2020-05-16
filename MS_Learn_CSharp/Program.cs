@@ -6,10 +6,11 @@ namespace MS_Learn_CSharp
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("This is the first line.");
-      Console.Write("This is ");
-      Console.Write("the first line.");
-      Console.Write("\n");
+      string name = "Bob";
+      int hasBoxesNum = 3;
+      decimal temperature = 34.4m;
+      Console.Write("Hello, " + name + "! You have " + hasBoxesNum + " in your inbox.");
+      Console.Write("  The temperature is " + temperature + " celsius.");
     }
   }
 }
